@@ -24,7 +24,7 @@ public class BaiTap1 {
 
 
       public String getThongTin(){
-          System.out.println("Ten: "+Ten+"\nTuoi: "+Tuoi+"\nDia Chi: "+DiaChi+"\nTien Luong: "+TienLuong+"\nTong So Gio Lam: "+TongSoGioLam+"\nTien Thuong: "+tinhThuong());
+          System.out.println("Ten: "+Ten+"\nTuoi: "+Tuoi+"\nDia Chi: "+DiaChi+"\nTien Luong: "+TienLuong+"\nTong So Gio Lam: "+TongSoGioLam+"\nTien Thuong: "+tinhThuong()+"\n");
           return null;
       }
 
@@ -105,10 +105,7 @@ public class BaiTap1 {
         NV2.setTongSoGioLam(300);
         
         NV1.getThongTin();
-        NV1.tinhThuong();
-        System.out.println();
         NV2.getThongTin();
-        NV2.tinhThuong();
     }
    }
 }
