@@ -19,8 +19,6 @@ public class BaiTap1 {
       private double TienLuong;
       private int TongSoGioLam;
 
-        private NhanVien() {
-        }
 
 
       public String getThongTin(){
@@ -80,13 +78,7 @@ public class BaiTap1 {
                this.TongSoGioLam = TongSoGioLam;
            }
 
-        public NhanVien(String Ten, int Tuoi, String DiaChi, double TienLuong, int TongSoGioLam) {
-        this.Ten = Ten;
-        this.Tuoi = Tuoi;
-        this.DiaChi = DiaChi;
-        this.TienLuong = TienLuong;
-        this.TongSoGioLam = TongSoGioLam;
-       }
+        
     public static void main(String[] args) {
         NhanVien NV1,NV2;
         NV1= new NhanVien();
